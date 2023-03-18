@@ -8,7 +8,7 @@ def doc():
     st.write("""
     #
     #### Translatorried, a language translator which can convert english to french or hindi. 
-    #### It is developed using LSTM encoder decoder architecture.
+    #### It is developed with deep learning network using LSTM encoder decoder architecture.
     #""")
 
     st.write("""
