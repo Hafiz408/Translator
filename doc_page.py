@@ -13,6 +13,6 @@ def doc():
 
     st.write("""
     #### Click the below link, for the Github repo.
-    #### dksjbsbdvlblovbl
+    #### https://github.com/Hafiz408/Translator
     """)
         
