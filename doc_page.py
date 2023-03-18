@@ -7,8 +7,8 @@ def doc():
     st.write("")
     st.write("""
     #
-    #### Translatorried, a web app created using streamlit library in python. 
-    #### zlxnlnclwnevlnlwnlvnlkwndlvnlwnkvl kvrn
+    #### Translatorried, a language translator which can convert english to french or hindi. 
+    #### It is developed using LSTM encoder decoder architecture.
     #""")
 
     st.write("""
