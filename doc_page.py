@@ -7,7 +7,7 @@ def doc():
     st.write("")
     st.write("""
     #
-    #### Translatorried, a language translator which can convert english to french or hindi. 
+    #### Translatorried, a language translator which can convert English to French or Spanish. 
     #### It is developed with deep learning network using LSTM encoder decoder architecture.
     #""")
 

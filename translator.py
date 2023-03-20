@@ -64,7 +64,7 @@ def translate(sentence, lang):
     translation = logits_to_text(predictions[0], y_tk)
     return translation
 
-def show_translation_page():
+def show_translation_from_text_page():
 
     cols=st.columns([2,4,2])
     cols[1].image("icon.png",width=250)
@@ -91,4 +91,18 @@ def show_translation_page():
         else:
             st.warning("No text found. Try again !!")
 
+def show_translation_from_img_page():
+    cols=st.columns([2,4,2])
+    cols[1].image("icon.png",width=250)
+    cols=st.columns([2,8,2])
+    cols[1].title("|..... Translatorried  ....|")
+    st.write("")
+
+    cols=st.columns([7,3])
+    cols[0].subheader("Choose the preferred method to input the image :")
+    input = cols[1].radio('',['Upload', 'Capture'], horizontal=True)
     
+    if input == 'Upload':
+        upload_img = st.file_uploader('Choose an image')
+    else:
+        cam_img = st.camera_input("Take a picture !!")
