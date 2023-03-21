@@ -15,7 +15,7 @@ from tensorflow.keras.layers import Embedding
 from keras.optimizers import Adam
 from keras.losses import sparse_categorical_crossentropy
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
+# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
 
 
 def choose_lang_model(lang):
